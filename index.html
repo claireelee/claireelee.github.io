@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <title>Claire Lee</title>
   <meta name="description" content="Claire Lee's portfolio website">
-  <meta name="author" content="paperfanz">
+  <meta name="author" content="claireelee">
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://kit.fontawesome.com/f569ccc368.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,37 +32,38 @@
       <div class="title">
         Hi, I'm <span>Claire.</span>
       </div>
+      <div class="subtitle"><br>
+        I'm a researcher, designer, and problem solver for all things UI/UX. 
+      </div>
+      <br><br><br>
       <div class="vdiv"></div>
       <div class="interest_box">
         <div class="interest">
-          <a onclick="scrollToElement('robotics', 'center')">UX Design</a>
+          <a onclick="scrollToElement('about', 'center')">About</a>
         </div>
         <div class="divider">
-          /
+          |
         </div>
         <div class="interest">
-          <a onclick="scrollToElement('computing', 'center')">Ed Tech</a>
+          <a onclick="scrollToElement('projects', 'center')">Projects</a>
+        </div>
+        <div class="divider">
+          |
+        </div>
+        <div class="interest">
+          <a href="res/resume.pdf" target="_blank">Resume</a>
         </div>
       </div>
-      <div class="vdiv"></div>
-      <div class="resume">
-        <a class="dl-button" href="res/resume.pdf" download>
-          <div class="icon">
-            <i class="fas fa-file-download"></i>
-          </div>
-          <div class="text">
-            Resume
-          </div>
-        </a>
+    </div>
+    
+    <div class="scroll">
+      <div class="icon" onclick="scrollToElement('about', 'center')">
+        <i class="fas fa-chevron-down"></i>
       </div>
     </div>
+  
   </div>
 
-  <div class="scroll">
-    <div class="icon" onclick="scrollToElement('about', 'center')">
-      <i class="fas fa-chevron-down"></i>
-    </div>
-  </div>
 
   <div class="content" id="content">
     <div class="row">
@@ -72,11 +73,11 @@
     <div class="row">
       <p class="justify"  id="about">
         <img src="res/portrait.jpeg" alt="portrait" class="portrait" align="left">
-        Hi, I'm Claire. I'm an undergraduate student studying Business Administration and Human-Computer Interaction at Carnegie Mellon University. I'm passionate about incorporating inclusive design into business and education.
+        <h2 class="highlight">Nice to meet you - I'm Claire.</h2>I'm an undergraduate student studying Business Administration and Human-Computer Interaction at Carnegie Mellon University. I'm passionate about incorporating inclusive design into business and education.
         <br><br>
 
         I want to utilize user research and educational technology concepts to help businesses and institutions adapt technology to their users' needs.
-        <br><br>
+        <br><br><br>
         
         Outside of school and work, I enjoy creating and expressing myself through a variety of outlets, from bullet journaling to experimenting in my kitchen. I'm currently in the process of perfecting an original Korean-Italian fusion pasta recipe! 
         <br><br>
@@ -85,28 +86,27 @@
       </p>
     </div>
 
-    <div class="row">
-      <h2 id="robotics">UI/UX Design</h2>
-      <p class="justify">
-        UI/UX design has a huge influence on how we interact with the technology around us, especially as we adjust to life in a post-COVID world. However, we often overlook the effort it takes to bridge the gap between innovation and familiarity. I'm interested in exploring different UI/UX research methods to optimize usability for both the consumer and the company. I'm currently working in Carnegie Mellon's HCI department as an interface design researcher for ClassInSight, a project that investigates the use of smart classroom technology in providing feedback and teaching training to novice college instructors.
-      </p>
-    </div>
+    <br>
+    <br>
+    <br>
+    <br>
 
-    <div class="row">
-      <h2 id="computing">Educational Technology</h2>
-      <p class="justify">
-        The depth of our current knowledge in educational technology is probably comparable to humanity's knowledge of astromony back when everyone believed that the sun revolved around the earth. It's surprisingly overlooked, given how integral education and technology are to our future. I'm currently working on a digital bullet journalling platform design concept (coming soon). 
-      </p>
+    <div class="scroll">
+      <div class="icon" onclick="scrollToElement('projects', 'center')">
+        <i class="fas fa-chevron-down"></i>
+      </div>
     </div>
-  </div>
   
   <br>
   <br>
+  <br>
+  <br>
 
-  <div class="content">
     <div class="row" id="projects">
       <h1>Projects</h1>
+      <p class="justify">
     </div>
+    
     <div class="row">
       <h2><b>Moneyversity</b></h2>
       <h3 class="highlight">
@@ -221,8 +221,9 @@
     <div class="row">
       <h2><b>ClassInSight</b></h2>
       <h3 class="highlight">
-        Team: Franceska Xhakaj (Principal Investigator), Katrina Hu, Amy Luo, advised by Dr. Amy Ogan
-      </h3>
+        Team: Franceska Xhakaj, Katrina Hu, Amy Luo <br>
+        advised by Dr. Amy Ogan
+      </h3><br>
 
     </h3><b>Introduction</b></h3>
       <p class="justify">
