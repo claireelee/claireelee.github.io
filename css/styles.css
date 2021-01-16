@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Unica+One|Poppins");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 :root {
     --fg: #333333;
     --bg: #ffffff;
-    --accent: #9784ae;
+    --accent: #6999c9;
 }
 
 html {
@@ -76,6 +76,11 @@ body {
     text-align: center;
 }
 
+.main .greeting .subtitle {
+    font-size: 1.25em;
+    text-align: center;
+}
+
 .main .greeting .vdiv {
     height: 2px;
 }
@@ -142,7 +147,7 @@ body {
 }
 
 .scroll {
-    position: absolute;
+    position: relative;
     bottom: 10%;
     width: 100%;
 
