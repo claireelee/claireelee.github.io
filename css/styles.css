@@ -3,10 +3,9 @@
 :root {
     --fg: #333333;
     --bg: #ffffff;
-    --transparent-white: rgba(255, 255, 255, 0);
-    --transparent-black: rgba(0,0,0,0)
     --accent: #6999c9;
-	
+    --transparent-white: rgba(255,255,255,0);
+    --transparent-black: rgba(0,0,0,0);
 }
 
 html {
@@ -48,7 +47,7 @@ body {
 }
 
 .top-fade {
-    background: linear-gradient(var(--bg), --transparent-white);
+    background: linear-gradient(var(--bg), var(--transparent-white));
     height: 50px;
     width: 100%;
 }
@@ -282,14 +281,14 @@ body {
 
 .bottom-fade {
     z-index: 3;
-    background: linear-gradient(transparent, var(--bg));
+    background: linear-gradient(var(--transparent-white), var(--bg));
     bottom: 0;
     position: fixed;
     height: 75px;
     width: 100%;
 }
 .bottom-fade-picture {
-    background: linear-gradient(--transparent-white, var(--bg));
+    background: linear-gradient(var(--transparent-white), var(--bg));
     position: relative;
 }
 
