@@ -4,6 +4,7 @@
     --fg: #333333;
     --bg: #ffffff;
     --accent: #6999c9;
+    --accentbg: #ebf6ff;
     --transparent-white: rgba(255,255,255,0);
     --transparent-black: rgba(0,0,0,0);
 }
@@ -303,6 +304,31 @@ body {
 .pull-right { 
     float: right; 
 }
+
+.right-box {
+    position: relative;
+    left: 20%;
+    padding: 10px;
+    background-color:var(--accentbg);
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 75%;
+  }
+  
+  .left-box {
+    padding: 10px;
+    background-color:var(--accentbg);
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 75%;
+  }
+  .main-box {
+    padding: 10px;
+    background-color:var(--accentbg);
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 90%;
+  }
 
 a {
     color: var(--fg);
